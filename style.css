@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root {
+
+    --clr-PaleViolet: hsl(276, 100%, 81%);
+    --clr-ModerateViolet: hsl(276, 55%, 52%);
+    --clr-DesaturatedDarkViolet: hsl(271, 15%, 43%);
+    --clr-GrayishBlue: hsl(206, 6%, 79%);
+    --clr-VeryDarkDesaturatedViolet: hsl(271, 36%, 24%);
+    --clr-DarkGrayishviolet: hsl(270, 7%, 64%);
+
+    --clr-LightMagenta: hsl(293, 100%, 63%);
+    --clr-LightViolet: hsl(264, 100%, 61%);
+
+    --clr-White: hsl(0, 0%, 100%);
+    --clr-LightGrayishViolet: hsl(270, 20%, 96%);
+    --Very-DarkDesaturatedViolet: hsl(271, 36%, 24%);
+    --Very-LightMagenta: hsl(289, 100%, 72%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* gap: 5rem; */
+    /* margin: 10rem;
+    margin-right: 5rem; */
+}
+
+.box1 {
+    background-color: hsl(270, 20%, 96%);
+    width: 16rem;
+    height: 34rem;
+    border: 12px solid white;
+    border-radius: 35px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0px 0px 10px rgb(124, 120, 120);
+    /* margin-left: 13rem; */
+}
+/* 
+.box2 {
+    width: 400px;
+    margin-top: 14rem;
+    font-family: 'Rubik', sans-serif;
+} */
+
+.heading {
+    color: hsl(271, 36%, 24%);
+    margin-bottom: 2rem;
+}
+
+.para {
+    color: hsl(271, 15%, 43%);
+    font-size: 100%;
+}
+
+.header {
+    background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    height: 5rem;
+    width: 16rem;
+    border-start-start-radius: 25px;
+    border-start-end-radius: 25px;
+    border-end-end-radius: 8px;
+    border-end-start-radius: 8px;
+}
+
+.camera1 {
+    display: flex;
+    justify-content: center;
+}
+
+.camera {
+    background-color: white;
+    width: 8rem;
+    height: 25px;
+    border-end-end-radius: 18px;
+    border-end-start-radius: 18px;
+}
+
+.header1 {
+    display: flex;
+}
+
+.header_image {
+    margin-left: 1rem;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.details {
+    margin-top: 12px;
+    margin-left: 5px;
+    font-size: small;
+}
+
+.name {
+    width: 100px;
+    font-weight: bolder;
+    font-size: 110%;
+    font-family: 'Rubik', sans-serif;
+    color: hsl(270, 20%, 96%);
+}
+
+.work {
+    width: 95px;
+    font-size: 80%;
+    font-family: 'Rubik', sans-serif;
+    color: hsl(206, 6%, 79%);
+}
+
+.dots {
+    /* display: flex; */
+    margin-left: 5rem;
+    margin-top: 7px;
+
+}
+
+.dot1,
+.dot2,
+.dot3 {
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    height: 6px;
+}
+
+
+/* main */
+.main {
+    display: grid;
+    gap: 0.6rem;
+    margin: 8px;
+    font-size: 60%;
+
+
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.line1,
+.line2,
+.line5 {
+    width: 142px;
+    padding: 9px;
+    background-color: hsl(275, 53%, 88%);
+    color: hsl(276, 55%, 52%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 4px;
+    box-shadow: 0px 0px 5px rgb(197, 191, 191);
+}
+
+.main_images {
+    margin-left: 85px;
+}
+
+.image1,
+.image2,
+.image3 {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(197, 191, 191);
+}
+
+.line3,
+.line4 {
+    margin-left: 118px;
+    background-color: white;
+    padding: 8px;
+    color: hsl(271, 36%, 24%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(197, 191, 191);
+}
+
+.line6,
+.line7 {
+    width: 175px;
+    padding: 10px;
+    background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    display: flex;
+    justify-content: space-between;
+    font-size: 109%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 4px;
+    box-shadow: 0px 0px 5px rgb(197, 191, 191);
+}
+
+.price {
+    font-size: 150%;
+    font-weight: bolder;
+    color: white;
+}
+
+.time {
+    padding: 2.5px;
+    color: hsl(206, 6%, 79%);
+}
+
+.input {
+    width: 236px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(271, 15%, 43%);
+    height: 33px;
+    border-radius: 22px;
+    margin-top: 4px;
+    border: none;
+    box-shadow: 0px 0px 5px rgb(197, 191, 191);
+}
